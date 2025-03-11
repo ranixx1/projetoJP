@@ -28,7 +28,7 @@ button {
 button:hover {
     background: #0056b3;
 }
-#output {
-    margin-top: 10px;
+#output, #outputDecrypted {
     font-weight: bold;
+    margin-bottom: 10px;
 }

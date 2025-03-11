@@ -12,19 +12,19 @@
         <h2>Criptografador de Frases</h2>
 
         <!-- Criptografar -->
+        <p id="output"></p> <!-- Texto criptografado aparece acima do input -->
         <input type="text" id="inputText" placeholder="Digite uma frase">
         <input type="number" id="shiftValue" placeholder="Digite o deslocamento (1-10)" min="1" max="10">
         <button onclick="encryptText()">Criptografar</button>
-        <p id="output"></p>
 
         <hr>
 
         <!-- Descriptografar -->
         <h2>Descriptografador de Frases</h2>
+        <p id="outputDecrypted"></p> <!-- Texto descriptografado aparece acima do input -->
         <input type="text" id="encryptedText" placeholder="Digite a frase criptografada">
         <input type="number" id="decryptShiftValue" placeholder="Digite o deslocamento (1-10)" min="1" max="10">
         <button onclick="decryptText()">Descriptografar</button>
-        <p id="outputDecrypted"></p>
     </div>
 </body>
 </html>
